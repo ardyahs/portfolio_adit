@@ -29,56 +29,14 @@ export const PROJECTS = [
     title: "NotePad",
     image: project2,
     description:
-      "A landing page for an Apple Iphone product, built with HTML and TailwindCSS.",
+      "simple notepad app create using python",
     technologies: ["Python", , ""],
     demo: "",
-    github: "https://github.com/syaafiudinm/iPhone13-tailwind-css",
-  },
-  {
-    title: "Book Review",
-    image: project4,
-    description:
-      "A platform for creating and publishing book reviews. and its a full stack project with comment feature.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "Javascript",
-      "Laravel",
-      "mySQL",
-    ],
-    demo: "",
-    github: "https://github.com/syaafiudinm/book-review-app",
-  },
-  {
-    title: "Athaya Shop",
-    image: project5,
-    description:
-      "online store for Athaya Shop with payment gateway, employee management and inventory management.",
-    technologies: [
-      "TailwindCSS",
-      "Live Wire",
-      "Javascript",
-      "Laravel",
-      "mySQL",
-      "AWS",
-    ],
-    demo: "",
-    github: "https://github.com/syaafiudinm/AthayaShop",
-  },
-  {
-    title: "Desa Kamiri",
-    image: project6,
-    description:
-      "Website for Kamiri Village, located in Barru, South Sulawesi, Indonesia. contain all information about Kamiri Village, such as history, culture, tourism, and more.",
-    technologies: ["NextJs", "Tailwind", "Supabase", "Vercel"],
-    demo: "https://desa-kamiri.vercel.app/",
-    github: "https://github.com/syaafiudinm/desa-kamiri",
+    github: "https://github.com/ardyahs/NotePad",
   },
 ];
 
 export const CONTACT = {
   address: "Makassar, South Sulawesi, Indonesia",
-  phoneNo: "0821 **** ****",
-  email: "altafpasallo12@gmail.com",
+  email: "adityaardyansyah26@gmail.com",
 };

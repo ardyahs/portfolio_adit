@@ -130,7 +130,7 @@ const Hero = () => {
               {[
                 {
                   Icon: FaGithub,
-                  href: "https://github.com/syaafiudinm",
+                  href: "https://github.com/ardyahs",
                   color: "hover:text-white",
                 },
    

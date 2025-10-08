@@ -89,12 +89,6 @@ const Contact = () => {
                 color: "from-gray-600 to-gray-700",
               },
               {
-                icon: FaPhone,
-                label: "Phone",
-                value: CONTACT.phoneNo,
-                color: "from-gray-500 to-gray-600",
-              },
-              {
                 icon: FaEnvelope,
                 label: "Email",
                 value: CONTACT.email,

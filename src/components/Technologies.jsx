@@ -1,13 +1,11 @@
 import { FaLaravel, FaReact } from "react-icons/fa";
 import {
-  SiBootstrap,
-  SiFirebase,
   SiGit,
-  SiMysql,
-  SiNextdotjs,
-  SiPostgresql,
-  SiSupabase,
-  SiTailwindcss,
+  SiFigma,
+  SiPython,
+  SiC,
+  SiCplusplus,
+  SiArduino,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -45,41 +43,38 @@ const itemVariants = {
 };
 
 const technologies = [
-  { Icon: SiNextdotjs, color: "text-black", duration: 2.5, name: "Next.js" },
-  { Icon: FaReact, color: "text-cyan-400", duration: 3.0, name: "React" },
-  { Icon: FaLaravel, color: "text-red-500", duration: 2.8, name: "Laravel" },
-  { Icon: SiMysql, color: "text-orange-500", duration: 3.2, name: "MySQL" },
-  {
-    Icon: SiTailwindcss,
-    color: "text-cyan-400",
-    duration: 2.7,
-    name: "Tailwind",
-  },
-  {
-    Icon: SiBootstrap,
-    color: "text-purple-500",
-    duration: 3.1,
-    name: "Bootstrap",
-  },
   { Icon: SiGit, color: "text-orange-600", duration: 2.9, name: "Git" },
   {
-    Icon: SiFirebase,
-    color: "text-amber-400",
+    Icon: SiFigma,
+    color: "text-black",
     duration: 3.3,
-    name: "Firebase",
+    name: "Figma",
   },
   {
-    Icon: SiSupabase,
-    color: "text-green-400",
+    Icon: SiCplusplus,
+    color: "text-blue-400",
     duration: 2.6,
-    name: "Supabase",
+    name: "C++",
   },
   {
-    Icon: SiPostgresql,
+    Icon: SiC,
     color: "text-blue-600",
     duration: 3.4,
-    name: "PostgreSQL",
+    name: "C",
   },
+  {
+    Icon: SiPython,
+    color: "text-yellow-600",
+    duration: 3.4,
+    name: "Python",
+  },
+  {
+    Icon: SiArduino,
+    color: "text-green-800",
+    duration: 3.4,
+    name: "Arduino",
+  },
+
 ];
 
 const TechnologyIcon = ({ Icon, color, duration, name, index }) => (
