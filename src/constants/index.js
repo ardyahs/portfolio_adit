@@ -1,9 +1,6 @@
-import project1 from "../assets/projects/EcoCycle.png";
+import project1 from "../assets/projects/Ecocycle.png";
 import project2 from "../assets/projects/NotePad.png";
 import project3 from "../assets/projects/Recytech.jpeg";
-import project4 from "../assets/projects/book-review.png";
-import project5 from "../assets/projects/ataya.png";
-import project6 from "../assets/projects/kamiri.png";
 
 export const HERO_CONTENT = `Hi, I'm Aditya Ardyansyah, a undergraduate IT student from Hasanuddin University, located in Makassar and currently loves to create a tools based IOT!`;
 
